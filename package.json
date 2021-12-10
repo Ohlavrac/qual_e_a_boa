@@ -1,0 +1,27 @@
+{
+  "name": "qual_e_a_boa",
+  "version": "1.0.0",
+  "description": "projeto desenvolvido para obtenção da nota de Engenharia de Software",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon web/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ohlavrac/qual_e_a_boa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ohlavrac/qual_e_a_boa/issues"
+  },
+  "homepage": "https://github.com/Ohlavrac/qual_e_a_boa#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
