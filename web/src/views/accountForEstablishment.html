@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual é a Boa | Registro de Estabelecimento</title>
+</head>
+<body>
+    <h1>Registrar Estabelecimento</h1>
+    <form action="/addEstablishment" method="POST">
+        <input type="text" name="owner_name" id="owner_name" placeholder="Nome do Dono(a)" required>
+        <input type="text" name="establishment_name" id="establishment_name" placeholder="Nome do Estabelecimento" required>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <input type="password" name="password" id="password" placeholder="Senha" required>
+        <input type="text" name="bio" id="bio" placeholder="Bio">
+        <input type="text" name="url_image" id="url_image" placeholder="Url da Imagem">
+        <input type="text" name="street" id="street" placeholder="Rua" required>
+        <input type="text" name="neighborhood" id="neighborhood" placeholder="Bairro" required>
+        <input type="text" name="number" id="number" placeholder="Numero" required>
+        <input type="text" name="city" id="city" placeholder="Cidade" required>
+        <button type="submit">Cadastrar</button>
+    </form>
+    <small>
+        <p>
+            Front End feito apenas para testar se o registro de estabelecimento estaa funcionando
+        </p>
+    </small>
+</body>
+</html>

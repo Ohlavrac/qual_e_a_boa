@@ -2,10 +2,10 @@
   "name": "qual_e_a_boa",
   "version": "1.0.0",
   "description": "projeto desenvolvido para obtenção da nota de Engenharia de Software",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon web/app.js"
+    "start": "nodemon web/server.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,9 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.1",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-beta.3"
   }
 }
